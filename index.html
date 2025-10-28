@@ -4,82 +4,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Awesome markup</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Rubik:wght@400;500&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="./style.css">
-    <title>Awesome markup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section>
-        <div class="card">
-            <div class="product-image-block">
-                <div class="main-image-wrapper">
-                    <img class="main-image" src="assets/img/main-image.png" alt="">
-                </div>
-                <div class="previews-wrapper">
-                    <div class="preview selected">
-                        <img src="assets/img/image-1.png" alt="">
-                    </div>
-                    <div class="preview">
-                        <img src="assets/img/image-2.png" alt="">
-                    </div>
-                </div>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper"> <a href="" class="logo"> <img class="logo-img" src="assets/img/Logo.svg"
+                        alt="image"> </a>
+                <ul class="menu">
+                    <li class="menu-item"> <a href="" class="menu-link">Main</a> </li>
+                    <li class="menu-item"> <a href="" class="menu-link">Rates</a> </li>
+                    <li class="menu-item"> <a href="" class="menu-link">Create Account</a> </li>
+                </ul>
+                <img class="menu-icon" src="assets/img/Vector (1).svg" alt="menu-icon">
             </div>
-            <div class="product-info-block">
-                <h1 class="main-title">Fluted Contrast</h1>
-                <span class="subtitle">Mug / 33 cl</span>
-                <p class="text">Fluted Contrast represents the perfect fusion between the aesthetic and the functional.
-                    The design is elegant and modern, created out of a deep respect for Royal British history and
-                    traditions</p>
-                <div class="colors">
-                    <h2 class="title">Color options</h2>
-                    <ul class="color-items">
-                        <li class="selected">
-                            <div class="circle blue"></div>
-                        </li>
-                        <li>
-                            <div class="circle green"></div>
-                        </li>
-                        <li>
-                            <div class="circle red"></div>
-                        </li>
-                        <li>
-                            <div class="circle black"></div>
-                        </li>
-                        <li>
-                            <div class="circle yellow"></div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="wrapper">
-                    <div>
-                        <h2 class="title">Quantity</h2>
-                        <select class="quantity" name="quantity" id="quantity">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                        </select>
-                    </div>
-                    <div>
-                        <h2 class="title">Price</h2>
-                        <span class="price">eur 39,00</span>
-                    </div>
-                </div>
-                <button class="btn">Add To Basket</button>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <div class="main-info">
+                    <h1 class="main-title">Markup achievement</h1>
+                    <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
+                    <button class="button">Learn More</button>
+                </div> <img class="main-img" src="assets/img/image.png" alt="image">
             </div>
-           
-  
         </div>
     </section>
-    <footer>
-    <a class="footer-link"  href="http://img.babyblog.ru/f/6/b/f6b6bd5d741a7402adafdf0ce5d9ba35.gif">нажми на меня пж</a>
-  </footer>
+    <section class="rates-section">
+        <div class="container">
+            <div class="rates-wrapper">
+                <h2 class="title">Rates</h2>
+                <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+                <div class="table-wrapper">
+                <table class="table">
+                    <tr>
+                        <th class="table-subtitle gray">Features</th>
+                        <th class="table-title">Standart</th>
+                        <th class="table-title">Plus</th>
+                        <th class="table-title">PRO</th>
+                    </tr>
+                    <tr>
+                        <th class="table-subtitle">Theory</th>
+                        <td><img src="assets/img/Check.svg" alt=""></td>
+                        <td><img src="assets/img/Check.svg" alt=""></td>
+                        <td><img src="assets/img/Check.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <th class="table-subtitle">Practice</th>
+                        <td><img src="assets/img/Close.svg" alt=""></td>
+                        <td><img src="assets/img/Check.svg" alt=""></td>
+                        <td><img src="assets/img/Check.svg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <th class="table-subtitle">Code review</th>
+                        <td><img src="assets/img/Close.svg" alt=""></td>
+                        <td><img src="assets/img/Close.svg" alt=""></td>
+                        <td><img src="assets/img/Close.svg" alt=""></td>
+                    </tr>
+                    <tr class="table-footer">
+                        <th class="table-subtitle"><a href="" class="table-link">Have questions?</a></th>
+                        <td><button class="table-button">get now</button></td>
+                        <td><button class="table-button active">get now</button></td>
+                        <td><button class="table-button">get now</button></td>
+                    </tr>
+                </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="create-account-section">
+        <div class="container">
+            <div class="account-wrapper">
+                <div class="account-info-wrapper">
+                    <h2 class="title">Create your free account</h2>
+                    <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily
+                        lives. The majority of people pay little attention to dreams. Dreams can help us find solutions
+                        to our daily problems and see things from a different perspective. Whenever we are dreaming, we
+                        can be who or what we want to be,regardless of the fact that in real life.</p>
+                    <ul class="list">
+                        <li class="list-item">Easy setup, fast start</li>
+                        <li class="list-item">Free forever for core features</li>
+                        <li class="list-item">14-day trial of premium features</li>
+                    </ul>
+                </div>
+                <form> <input type="text" placeholder="Full Name*">
+                    <div class="fields-wrapper"> <input type="email" placeholder="Email*"> <input type="password"
+                            placeholder="Password*"> <input type="date"> <select>
+                            <option selected disabled>Country</option>
+                            <option>Belarus</option>
+                            <option>China</option>
+                            <option>USA</option>
+                        </select> </div>
+                    <div class="stack"> <label for="front"> <input id="front" type="radio" name="stack" checked>
+                            Frontend </label> <label for="back"> <input id="back" type="radio" name="stack"> Backend
+                        </label> </div>
+                    <fieldset>
+                        <legend>Favorite Technologies</legend> <label for="html"> <input id="html" type="checkbox"
+                                name="html" checked> HTML </label> <label for="css"> <input id="css" type="checkbox"
+                                name="css" checked> CSS </label> <label for="react"> <input id="react" type="checkbox"
+                                name="react"> React </label> <label for="sc"> <input id="sc" type="checkbox" name="sc">
+                            Styled components </label>
+                    </fieldset> <textarea placeholder="Something else about you..."></textarea> <button class="button"
+                        type="submit">registration</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer"> <small>Copyright © 2023. All rights reserved.</small> </footer>
 </body>
 
 </html>
